@@ -2,4 +2,4 @@
 config BR2_PACKAGE_LDD
 	bool "ldd"
 	help
-	  supports building and installing the misc-modules and scull components into the root filesystem
+	  installing the misc-modules and scull components into the root filesystem
