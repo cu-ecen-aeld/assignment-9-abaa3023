@@ -5,11 +5,13 @@ case "$1" in
         modprobe hello
         /usr/bin/module_load faulty
         /usr/bin/scull_load
+        /usr/bin/aesdchar_load
         ;;
     stop)
         rmmod hello
         /usr/bin/module_unload faulty
         /usr/bin/scull_unload
+        /usr/bin/aesdchar_unload
         ;;
     *)
     exit 1
