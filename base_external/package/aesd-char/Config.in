@@ -1,5 +1,0 @@
-
-config BR2_PACKAGE_AESD_CHAR
-	bool "aesd-char"
-	help
-	  install the aesd character device modules
